@@ -1,9 +1,5 @@
-resource "random_id" "default" {
-  byte_length = 8
-}
-
 resource "google_storage_bucket" "default" {
-  name     = "${random_id.default.hex}.tfbackend.novasoftworks.net"
+  name     = "${var.subdomain}.tfbackend.novasoftworks.net"
   project  = var.project_id
   location = var.location
 

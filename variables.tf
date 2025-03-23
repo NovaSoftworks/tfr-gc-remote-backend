@@ -7,3 +7,8 @@ variable "location" {
   type        = string
   description = "The Google Cloud location where the bucket will be stored."
 }
+
+variable "subdomain" {
+  type        = string
+  description = "The name of the bucket subdomain (e.g. my-app-backend)."
+}
