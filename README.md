@@ -1,4 +1,4 @@
-# Terraform Registry - Google Cloud Remote Backend (tfr-gc-remote-backend)
+# Terraform registry - Google Cloud remote backend (tfr-gc-remote-backend)
 
 This Terraform module creates a Google Cloud Storage bucket configured for securely storing Terraform state files. The bucket is properly configured with versioning enabled and public access prevention enforced.
 
