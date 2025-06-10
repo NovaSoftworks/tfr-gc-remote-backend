@@ -16,7 +16,7 @@ module "terraform_backend" {
 }
 ```
 
-## Inputs
+## Variables
 
 | Name | Description | Type | Required |
 |------|-------------|------|----------|
